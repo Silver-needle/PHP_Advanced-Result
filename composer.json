@@ -1,0 +1,19 @@
+{
+    "name": "gb/php",
+    "autoload": {
+        "psr-4": {
+            "GB\\Php\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Margarita Samoray",
+            "email": "msamoray161@gmail.com"
+        }
+    ],
+    "require": {
+      "ext-http": "*",
+      "ext-mbstring": "*",
+      "ext-pdo": "*"
+    }
+}
